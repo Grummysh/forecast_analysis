@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "focused-bridge-393601",
+  "private_key_id": "425247c0820699140600692e134eb3f2899c66ee",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDUi2fcadpufuU0\n8LFRFZTs2BUjziyrYplK3Om1cCU0UEyIJJrHn5fPwM+KMO/5BbmJJUuWXRzf1wq/\nKPVhmDQFv7xVkBACXjVrkTwVgUtw8ph4Ma4RqLd0hddnwGe2DocI4HgLEb0pMrJD\n54KimWosEQMigvElE8j2eUnUMwdzUbmdv1Sctijd+Ed4nEzQE8uRu1ft4M5rjw4p\nandagUmDgsBowUmxdrGylydcft+0l9/StPomVAEXmo294eGSVStfly7kZ+WOpWxl\npnMQrGBdWzusXXbSW1oLp0HJzQJ8X1i9AZzVPMS1CJpNou28Xlh9yEInaddPq5XN\n1DrR+3w5AgMBAAECggEAIoCAuxxpy18I+QeLWSS+OJY5FEdfI/EM/kSPIZdTSsMw\nMTdz8qy6+YwMhJu+ELf3rsYhl4aE7eccBPzynEWXSEmgGmmY17GQTWZVkQ4cf3i5\n/GTgI1i2cxFY7qwiicCg9fVuNynJgZsLqg82OwvZWs7mKd+EoqasDCqTLAGel37k\nX/dljGB2T4c//6VWEKrJvtLpjaErsDnyGYtnEccJjTR5t12N+R/od05+ZKAydkPT\nCsOchBEJM/45j0tbPToOC+rucxV51BaCKhVtO5yvlohK3He1lnEpQyO/nqOje1/G\nhgzOVrg+uXcwF7OtOGFqPUESgTymMBfqIqHYpdwniQKBgQD2m7QrsaS1FfqfTdfn\nR19OiibAquVCWbCrBhLIIuNItCpZnccTEyvKUD3EIWuTrd5uSY+WumUu+pZSW9j4\n2ZYelgJbfZxnd5dhUUtPG6O61LojoZU/mNQlpUT3/eFnonhHbhR8Q6LBlMbq5wWE\n1ipjc1zQehAUoZjL9y/9GmrQjQKBgQDco5mE93wV2XKOk/cFb6iOE3Chf+sLP4OW\ncRd+AMMEWn36iOqcrfX4KdAWmPgaYlPQ1laUXNHakivvf4PArYy258Hvo8YRfWCA\nwpLpgYG0mrEcWvK16ma2x+/xsMtklmwX5NWPRcBVsepSMYAKxfdyT7oseZkoXd38\nzcx04LTdXQKBgQChgrRrcXr4Bp8PuoHOvVXUMHLU+JgR7n/gYqfmX8MPmL+r1cPN\n4F5rsEXjsCeuns7w2EisZQNj00akRfdCc+73tTNyDEBlG1QPrphuBSIkeLI4J9mB\nv2wiA6255ZK8txGjZpsQD5QGyJPGwOtCZql4XNPKzka93GAgJZJOaADQ+QKBgGh8\noWsyuHSwcWvL7qOIaU4/LouMxIajIXHRRMrLGY+qOxa2WESyrVVEl+LbtkLoZcD0\ngDPqcQcNSfk1bfOFPKoxvsn5yQbnVRglDOXACui4iT9gYqh7xQCyVpMiom+UPMRj\n/i7HXXo3szwRbQ2tCq37y7LcMwfGzCW4YCbJc12RAoGBAJEzdNHCuiEauQb4AXq8\nPNReQ6gqD42IulqBsV9Ro3fp5H6WWDIBrWK93rVnKHK97rHGc8aosNFn3Oh3kZDz\nxL9m+JfSUC5RXRGDCWUDqr1xCJbSdA/D2byelV2w6LifFFY8WmRUQGTJjoNXkQc+\n5saLfi5TZYodqT789iCUjp2F\n-----END PRIVATE KEY-----\n",
+  "client_email": "negative-forcasted-products-wa@focused-bridge-393601.iam.gserviceaccount.com",
+  "client_id": "101441409558456640837",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/negative-forcasted-products-wa%40focused-bridge-393601.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
