@@ -7,7 +7,7 @@ def get_top3_negative_forecasted_products(data):
     negative_forecasted_data = data[data['Forecasted Quantity'] < 0]
 
     # Group the data by product categories and calculate the total forecasted quantity for each category
-    category_forecasts = negative_forecasted_data.groupby('Product Category').sum()
+    category_forecasts = negative_forecasted_data.groupby('Product Category/Complete Name').sum()
 
     # Sort the categories by forecasted quantities in descending order
     sorted_categories = category_forecasts.sort_values(by='Forecasted Quantity', ascending=False)
@@ -23,7 +23,7 @@ def main():
     gc = gspread.service_account(filename=filename)
 
     # Specify the spreadsheet key and worksheet name
-    spreadsheet_key = '1IwjamCfqQP6JRzs2hooqVMrd5gm5xQqamD-Z31JJ_8Y'
+    spreadsheet_key = '1o9GZUU39AZRdsSK_bsefPkRLYs8yG38unt-rquJeWyk'
     worksheet_name = 'product.template.csv'
 
     # Open the worksheet
