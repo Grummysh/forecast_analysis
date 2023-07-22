@@ -1,5 +1,6 @@
 import gspread
 import pandas as pd
+import os
 
 # Function to get the top 3 product categories with negative forecasted quantities
 def get_top3_negative_forecasted_products(data):
@@ -7,7 +8,7 @@ def get_top3_negative_forecasted_products(data):
     negative_forecasted_data = data[data['Forecasted Quantity'] < 0]
 
     # Group the data by product categories and calculate the total forecasted quantity for each category
-    category_forecasts = negative_forecasted_data.groupby('Product Category/Complete Name').sum()
+    category_forecasts = negative_forecasted_data.groupby('Product Category').sum()
 
     # Sort the categories by forecasted quantities in descending order
     sorted_categories = category_forecasts.sort_values(by='Forecasted Quantity', ascending=False)
@@ -23,7 +24,7 @@ def main():
     gc = gspread.service_account(filename=filename)
 
     # Specify the spreadsheet key and worksheet name
-    spreadsheet_key = '1o9GZUU39AZRdsSK_bsefPkRLYs8yG38unt-rquJeWyk'
+    spreadsheet_key = '1IwjamCfqQP6JRzs2hooqVMrd5gm5xQqamD-Z31JJ_8Y'
     worksheet_name = 'product.template.csv'
 
     # Open the worksheet
@@ -42,6 +43,13 @@ def main():
     # Print the result
     print("Top 3 Product Categories with Negative Forecasted Quantities:")
     print(top3_negative_forecasted_categories)
+
+    # Save the result to a text file
+    output_file = "top_product_categories.txt"
+    with open(output_file, 'w') as file:
+        file.write("Top 3 Product Categories with Negative Forecasted Quantities:\n")
+        for category in top3_negative_forecasted_categories:
+            file.write(f"{category}\n")
 
 if __name__ == "__main__":
     main()
